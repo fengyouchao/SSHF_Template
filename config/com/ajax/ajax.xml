@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<package name="ajaxTest" extends="struts-default"
+		namespace="/">
+		<action name="ajax1" class="com.example.action.AjaxAction">
+			<result name="success" type="freemarker">/ajax/ajaxTest.ftl</result>
+		</action>
+		<action name="ajax2" class="com.example.action.AjaxMenuAction">
+		
+		<result type="freemarker">/ajax/ajaxGetMene.ftl</result>
+		</action>
+		
+		<action name="ajax3" class="com.example.action.GetTableDataAction">
+		
+			<result type="freemarker">/ajax/getTableData.ftl</result>
+		</action>
+		
+	</package>
+
+</struts>

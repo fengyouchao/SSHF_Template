@@ -1,0 +1,1 @@
+<#assign s=JspTaglibs["/WEB-INF/tags/struts-tags.tld"]/>
