@@ -1,7 +1,7 @@
 SSHF_Demo
 =========
 
-It is a demo built by Spring framework, Struts2, Hibernate4, and FreeMarker. The project is built by maven
+It is a demo built by Spring framework, Struts2, Hibernate4, and FreeMarker. The project is built by Eclipse 
 
 How to download the project
 ---------------------------
